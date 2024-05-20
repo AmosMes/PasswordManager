@@ -1,6 +1,14 @@
 # PasswordManager
 An application to store you're favorite websites/applications username and passwords
 
+Prerequisities:
+Install the following pip packages:
+cryptography
+pyperclip
+hashlib
+
+This application meant to run in a Windows OS.
+The default user is example@test.com -  you can change that to what ever you want.
 
 This application when running for the first time will ask the user to create a user/password.
 After that the application will create a key for the user to encrypt and decrypt all passwords that the user will save.
