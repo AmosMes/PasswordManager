@@ -365,7 +365,7 @@ def main_app():
     password_label.grid(column=0, row=3)
 
     global password_entry
-    password_entry = tk.Entry(width=36)
+    password_entry = tk.Entry(width=36, show='*')
     password_entry.grid(row=3, column=1)
 
     pass_gen_button = tk.Button(text="Generate Password", command=Password_generator)
