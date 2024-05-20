@@ -358,7 +358,7 @@ def main_app():
 
     global user_entry
     user_entry = tk.Entry(width=55)
-    user_entry.insert("0", "amos@test.com")
+    user_entry.insert("0", "example@test.com")
     user_entry.grid(row=2, column=1, columnspan=2)
 
     password_label = tk.Label(text="Password:")
